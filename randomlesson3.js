@@ -56,7 +56,7 @@ const quizData = [
         answered: null // Initialize answered property
     },
     {
-        question: "Match column I with column II and select the correct option from the codes given below. Column I Column II A. Copper releasing IUD (i) LNG-20 B. Hormone releasing (ii) Lippes loop IUD C. Non medicated IUD (iii) Saheli D. Mini pills (iv) Multiload-375",
+        question: "/images/l3q1.png",
         a: "A-(iv), B-(ii), C-(i), D-(iii)",
         b: "A-(iv), B-(i), C-(iii), D-(ii)",
         c: "A-(i), B-(iv), C-(ii), D-(iii)",
