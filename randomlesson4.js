@@ -2,86 +2,194 @@
 
 const quizData = [
     {
-        question: "Which of the following is correct regarding HIV, hepatitis B, gonorrhoea and trichomoniasis?",
-        a: "Gonorrhoea is a STD whereas others are not.",
-        b: "Trichomoniasis is a viral disease whereas others are bacterial.",
-        c: "HIV is a pathogen whereas others are diseases.",
-        d: "Hepatitis B is eradicated completely whereas others are not.",
-        correct: "a",
-        answered: null // Initialize answered property
-    },
-    {
-        question: "Which one of the following groups includes sexually transmitted diseases caused by bacteria only?",
-        a: "Syphilis, gonorrhoea and candidiasis",
-        b: "Syphilis, chlamydiasis and gonorrhoea",
-        c: "Syphilis, gonorrhoea and trichomoniasis",
-        d: "Syphilis, trichomoniasis and pediculosis",
-        correct: "b",
-        answered: null // Initialize answered property
-    },
-    {
-        question: "Identify the correct statements from the following",
-        a: "Chlamydiasis is a viral disease.",
-        b: "Gonorrhoea is caused by a spirochaete bacterium, Treponema palladium.",
-        c: "The incubation period for syphilis is 2 to 14 days in males and 7 to 21 days in females.",
-        d: "Both syphilis and gonorrhoea are easily cured with antibiotics.",
-        correct: "c",
-        answered: null // Initialize answered property
-    },
-    {
-        question: "A contraceptive pill prevents ovulation by",
-        a: "blocking fallopian tube",
-        b: "inhibiting release of FSH and LH",
-        c: "stimulating release of FSH and LH",
-        d: "causing immediate degeneration of released ovum",
-        correct: "b",
-        answered: null // Initialize answered property
-    },
-    {
-        question: "The approach which does not give the defined action of contraceptive is",
-        a: "Hormonal contraceptive: Prevents entry of sperms, prevent ovulation and fertilization",
-        b: "Vasectomy: Prevents spermatogenesis",
-        c: "Barrier method: Prevents fertilization",
-        d: "Intrauterine device: Increases phagocytosis of sperms, suppresses sperm motility and fertilizing capacity of sperms",
+        question: "Haemophilia is more common in males because it is a",
+        a: "Recessive character carried by Y-chromosome",
+        b: "Dominant character carried by Y-chromosome",
+        c: "Dominant trait carried by X-chromosome",
+        d: "Recessive trait carried by X-chromosome",
         correct: "d",
         answered: null // Initialize answered property
     },
     {
-        question: "Read the given statements and select the correct option. Statement 1: Diaphragms, cervical caps and vaults are made of rubber and are inserted into the female reproductive tract to cover the cervix before coitus. Statement 2: They are chemical barriers of conception and are reusable.",
-        a: "Both statements 1 and 2 are correct and statement 2 is the correct explanation of statement 1.",
-        b: "Both statements 1 and 2 are correct but statement 2 is not the correct explanation of statement 1.",
-        c: "Statement 1 is correct but statement 2 is incorrect.",
-        d: "Both statements 1 and 2 are incorrect.",
+        question: "ABO blood group in man is controlled by",
+        a: "Multiple alleles",
+        b: "Lethal genes",
+        c: "Sex linked genes",
+        d: "Y-linked genes",
         correct: "a",
         answered: null // Initialize answered property
     },
     {
-        question: "Match column I with column II and select the correct option from the codes given below. Column I Column II A. Copper releasing IUD (i) LNG-20 B. Hormone releasing (ii) Lippes loop IUD C. Non medicated IUD (iii) Saheli D. Mini pills (iv) Multiload-375",
-        a: "A-(iv), B-(ii), C-(i), D-(iii)",
-        b: "A-(iv), B-(i), C-(iii), D-(ii)",
-        c: "A-(i), B-(iv), C-(ii), D-(iii)",
-        d: "A-(iv), B-(i), C-(ii), D-(iii)",
+        question: "Three children of a family have blood groups A, AB and B. What could be the genotypes of their parents?",
+        a: "IA IA and Io Io",
+        b: "IA Io and IBIo",
+        c: "IB IB and IA IA",
+        d: "IA Io and Io Io",
         correct: "b",
         answered: null // Initialize answered property
     },
     {
-        question: "Select the incorrect action of hormonal contraceptive pills from the following",
-        a: "Inhibition of spermatogenesis.",
-        b: "Inhibition of ovulation.",
-        c: "Changes in cervical mucus impairing its ability to allow passage and transport of sperms.",
-        d: "Alteration in uterine endometrium to make it unsuitable for implantation.",
+        question: "Which of the following is not correct?",
+        a: "Three or more alleles of a trait in the population are called multiple alleles.",
+        b: "A normal gene undergoes mutations to form many alleles.",
+        c: "Multiple alleles map at different loci of a chromosome.",
+        d: "A diploid organism has only two alleles out of many in the population.",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following phenotypes in the progeny are possible from the parental combination AxB?",
+        a: "A and B only",
+        b: "A, B and AB only",
+        c: "AB only",
+        d: "A, B, AB and O",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following phenotypes is not possible in the progeny of the parental genotypic combination IAIO X IAIB?",
+        a: "AB",
+        b: "O",
+        c: "A",
+        d: "B",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following is true about Rh factor in the offspring of a parental combination Dd x Dd (both Rh positive)?",
+        a: "All will be Rh positive",
+        b: "Half will be Rh positive",
+        c: "About ¾ will be Rh negative",
+        d: "About one fourth will be Rh negative",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "What can be the blood group of offspring when both parents have AB blood group?",
+        a: "AB only",
+        b: "A, B and AB",
+        c: "A, B, AB and O",
+        d: "A and B only",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "If the child's blood group is ‘O’ and father's blood group is ‘A’ and mother’s blood group is ‘B’ the genotype of the parents will be",
+        a: "IA IA and IB Io",
+        b: "IA Io and IB Io",
+        c: "IA Io and Io Io",
+        d: "Io Io and IB IB",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "XO type of sex determination and XY type of sex determination are examples of",
+        a: "Male heterogamety",
+        b: "Female heterogamety",
+        c: "Male homogamety",
+        d: "Both (b) and (c)",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "In an accident there is great loss of blood and there is no time to analyse the blood group which blood can be safely transferred?",
+        a: "O and Rh negative",
+        b: "O and Rh positive",
+        c: "B and Rh negative",
+        d: "AB and Rh positive",
         correct: "a",
         answered: null // Initialize answered property
     },
     {
-        question: "Correct the following statements",
-        a: "Transfer of an ovum collected from donor into the fallopian tube is called ZIFT.",
-        b: "Transferring of an embryo with more than 8 blastomeres into uterus is called GIFT.",
-        c: "Multiload 375 is a hormone releasing IUD.",
+        question: "Father of a child is colourblind and mother is carrier for colourblindness, the probability of the child being colourblind is",
+        a: "25%",
+        b: "50%",
+        c: "100%",
+        d: "75%",
         correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "A marriage between a colourblind man and a normal woman produces",
+        a: "All carrier daughters and normal sons",
+        b: "50% carrier daughters and 50% normal daughters",
+        c: "50% colourblind sons and 50% normal sons",
+        d: "All carrier offspring",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Down's syndrome is a genetic disorder which is caused by the presence of an extra chromosome number",
+        a: "20",
+        b: "21",
+        c: "4",
+        d: "23",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Klinefelters’ syndrome is characterized by a karyotype of",
+        a: "XYY",
+        b: "XO",
+        c: "XXX",
+        d: "XXY",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Females with Turner’s syndrome have",
+        a: "Small uterus",
+        b: "Rudimentary ovaries",
+        c: "Underdeveloped breasts",
+        d: "All of these",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Patau's syndrome is also referred to as",
+        a: "13-Trisomy",
+        b: "18-Trisomy",
+        c: "21-Trisomy",
+        d: "None of these",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "“Universal Donor” and “Universal Recipients” blood group are _____ and ______ respectively",
+        a: "AB, O",
+        b: "O, AB",
+        c: "A, B",
+        d: "B, A",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "ZW-ZZ system of sex determination occurs in",
+        a: "Fishes",
+        b: "Reptiles",
+        c: "Birds",
+        d: "All of these",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Co-dominant blood group is",
+        a: "A",
+        b: "AB",
+        c: "B",
+        d: "O",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following is incorrect regarding ZW-ZZ type of sex determination?",
+        a: "It occurs in birds and some reptiles",
+        b: "Females are homogametic and males are heterogametic",
+        c: "Males produce one type of gamete",
+        d: "It occurs in gypsy moth",
+        correct: "d",
         answered: null // Initialize answered property
     }
-    
     
 ];
 

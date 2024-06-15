@@ -2,50 +2,132 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
-        correct: "a",
-        answered: null
+        question: "Hershey and Chase experiment with bacteriophage showed that",
+        a: "Protein gets into the bacterial cells",
+        b: "DNA is the genetic material",
+        c: "DNA contains radioactive sulphur",
+        d: "Viruses undergo transformation",
+        correct: "b",
+        answered: null // Initialize answered property
     },
     {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
+        question: "DNA and RNA are similar with respect to",
+        a: "Thymine as a nitrogen base",
+        b: "A single-stranded helix shape",
+        c: "Nucleotide containing sugars, nitrogen bases and phosphates",
+        d: "The same sequence of nucleotides for the amino acid phenyl alanine",
         correct: "c",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "A mRNA molecule is produced by",
+        a: "Replication",
+        b: "Transcription",
+        c: "Duplication",
+        d: "Translation",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The total number of nitrogenous bases in human genome is estimated to be about",
+        a: "3.5 million",
+        b: "35000",
+        c: "35 million",
+        d: "3.1 billion",
         correct: "d",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
-        correct: "a",
-        answered: null
+        question: "E. coli cell grown on 15N medium are transferred to 14N medium and allowed to grow for two generations. DNA extracted from these cells is ultracentrifuged in a cesium chloride density gradient. What density distribution of DNA would you expect in this experiment?",
+        a: "One high and one low density band.",
+        b: "One intermediate density band.",
+        c: "One high and one intermediate density band.",
+        d: "One low and one intermediate density band.",
+        correct: "b",
+        answered: null // Initialize answered property
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "What is the basis for the difference in the synthesis of the leading and lagging strand of DNA molecules?",
+        a: "Origin of replication occurs only at the 5' end of the molecules.",
+        b: "DNA ligase works only in the 3' → 5' direction.",
+        c: "DNA polymerase can join new nucleotides only to the 3' end of the growing stand.",
+        d: "Helicases and single-strand binding proteins that work at the 5' end.",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following is the correct sequence of event with reference to the central dogma?",
+        a: "Transcription, Translation, Replication",
+        b: "Transcription, Replication, Translation",
+        c: "Duplication, Translation, Transcription",
+        d: "Replication, Transcription, Translation",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following statements about DNA replication is not correct?",
+        a: "Unwinding of DNA molecule occurs as hydrogen bonds break.",
+        b: "Replication occurs as each base is paired with another exactly like it.",
+        c: "Process is known as semi conservative replication because one old strand is conserved in the new molecule.",
+        d: "Complementary base pairs are held together with hydrogen bonds.",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following statements is not true about DNA replication in eukaryotes?",
+        a: "Replication begins at a single origin of replication.",
+        b: "Replication is bidirectional from the origins.",
+        c: "Replication occurs at about 1 million base pairs per minute.",
+        d: "There are numerous different bacterial chromosomes, with replication ocurring in each at the same time.",
         correct: "a",
-        answered: null
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The first codon to be deciphered was ________ which codes for ________.",
+        a: "AAA, proline",
+        b: "GGG, alanine",
+        c: "UUU, Phenylalanine",
+        d: "TTT, arginine",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Meselson and Stahl’s experiment proved",
+        a: "Transduction",
+        b: "Transformation",
+        c: "DNA is the genetic material",
+        d: "Semi-conservative nature of DNA replication",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Ribosomes are composed of two subunits; the smaller subunit of a ribosome has a binding site for _________ and the larger subunit has two binding sites for two _________. (mRNA, tRNA)",
+        a: "mRNA; tRNA",
+        b: "tRNA; mRNA",
+        c: "mRNA; mRNA",
+        d: "tRNA; tRNA",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "An operon is a:",
+        a: "Protein that suppresses gene expression",
+        b: "Protein that accelerates gene expression",
+        c: "Cluster of structural genes with related function",
+        d: "Gene that switches other genes on or off",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "When lactose is present in the culture medium:",
+        a: "Transcription of lac y, lac z, lac a genes occurs.",
+        b: "Repressor is unable to bind to the operator.",
+        c: "Repressor is able to bind to the operator.",
+        d: "Both (a) and (b) are correct.",
+        correct: "d",
+        answered: null // Initialize answered property
     }
+    
 ];
 
 let index = 0;

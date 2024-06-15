@@ -144,6 +144,7 @@ const homeButton = document.getElementById("homeButton");
 const initializeQuiz = () => {
     loadQuestion(index);
     populateQuestionNav();
+    setupEventListeners();
 };
 
 // Function to load a question
@@ -207,13 +208,14 @@ const updateNavigation = () => {
 
 // Function to navigate to a specific question
 const jumpToQuestion = (i) => {
+    saveAnswer(); // Save answer before jumping to another question
     index = i;
     loadQuestion(index);
 };
 
 // Function to move to the next question
 const nextQuestion = () => {
-    saveAnswer(); // Save the answer before moving to the next question
+    saveAnswer(); // Save answer before moving to next question
     index++;
     if (index < total) {
         loadQuestion(index);
@@ -224,7 +226,7 @@ const nextQuestion = () => {
 
 // Function to move to the previous question
 const previousQuestion = () => {
-    saveAnswer(); // Save the answer before moving to the previous question
+    saveAnswer(); // Save answer before moving to previous question
     if (index > 0) {
         index--;
         loadQuestion(index);
@@ -251,6 +253,21 @@ const getSelectedInput = () => {
     return null;
 };
 
+// Function to mark question as answered in the navigation
+const markQuestionAsAnswered = (index) => {
+    const li = questionNav.children[index];
+    if (li) {
+        li.classList.add('answered');
+    }
+};
+
+// Function to setup event listeners for radio button changes
+const setupEventListeners = () => {
+    questionBox.addEventListener("change", () => {
+        saveAnswer(); // Save answer whenever a radio button changes
+    });
+};
+
 // Event listener for submit button
 submitButton.addEventListener("click", () => {
     submitQuiz();
@@ -258,6 +275,8 @@ submitButton.addEventListener("click", () => {
 
 // Function to submit the quiz
 const submitQuiz = () => {
+    saveAnswer(); // Save answer before submitting the quiz
+    
     let correct = 0;
     quizData.forEach(question => {
         if (question.answered === question.correct) {
@@ -270,7 +289,7 @@ const submitQuiz = () => {
 // Function to display results
 const displayResults = (correct) => {
     questionBox.innerHTML = `
-        <h2>Quiz Completed!</h2>
+        <h2>RESULT</h2>
         <p>Total correct answers: ${correct} out of ${total}</p>
         <p>${getResultMessage(correct)}</p>
     `;
@@ -279,14 +298,6 @@ const displayResults = (correct) => {
     submitButton.style.display = "none";
     homeButton.style.display = "block";
     questionNav.style.display = "none";
-};
-
-// Function to mark question as answered in the navigation
-const markQuestionAsAnswered = (index) => {
-    const li = questionNav.children[index];
-    if (li) {
-        li.classList.add('answered');
-    }
 };
 
 // Function to get result message based on score

@@ -2,50 +2,150 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
-        correct: "a",
-        answered: null
-    },
-    {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
+        question: "The first life on earth originated",
+        a: "in air",
+        b: "on land",
+        c: "in water",
+        d: "on mountain",
         correct: "c",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "Who published the book “Origin of species by Natural Selection” in 1859?",
+        a: "Charles Darwin",
+        b: "Lamarck",
+        c: "Weismann",
+        d: "Hugo de Vries",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which of the following was the contribution of Hugo de Vries?",
+        a: "Theory of mutation",
+        b: "Theory of natural Selection",
+        c: "Theory of inheritance of acquired characters",
+        d: "Germplasm theory",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The wings of birds and butterflies is an example of",
+        a: "Adaptive radiation",
+        b: "convergent evolution",
+        c: "divergent evolution",
+        d: "variation",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The phenomenon of “ Industrial Melanism” demonstrates",
+        a: "Natural selection",
+        b: "induced mutation",
+        c: "reproductive isolation",
+        d: "geographical isolation",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Darwin’s finches are an excellent example of",
+        a: "connecting links",
+        b: "seasonal migration",
+        c: "adaptive radiation",
+        d: "parasitism",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Who proposed the Germplasm theory?",
+        a: "Darwin",
+        b: "August Weismann",
+        c: "Lamarck",
+        d: "Alfred Wallace",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The age of fossils can be determined by",
+        a: "electron microscope",
+        b: "weighing the fossils",
+        c: "carbon dating",
+        d: "analysis of bones",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Fossils are generally found in",
+        a: "igneous rocks",
+        b: "metamorphic rocks",
+        c: "volcanic rocks",
+        d: "sedimentary rocks",
         correct: "d",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
-        correct: "a",
-        answered: null
+        question: "Evolutionary history of an organism is called",
+        a: "ancestry",
+        b: "ontogeny",
+        c: "phylogeny",
+        d: "paleontology",
+        correct: "c",
+        answered: null // Initialize answered property
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "The golden age of reptiles was",
+        a: "Mesozoic era",
+        b: "Cenozoic era",
+        c: "Paleozoic era",
+        d: "Proterozoic era",
         correct: "a",
-        answered: null
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Which period was called “Age of fishes”?",
+        a: "Permian",
+        b: "Triassic",
+        c: "Devonian",
+        d: "Ordovician",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Modern man belongs to which period?",
+        a: "Quaternary",
+        b: "Cretaceous",
+        c: "Silurian",
+        d: "Cambrian",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The Neanderthal man had the brain capacity of",
+        a: "650 – 800cc",
+        b: "1200cc",
+        c: "900cc",
+        d: "1400cc",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "According to Darwin, the organic evolution is due to",
+        a: "Intraspecific competition",
+        b: "Interspecific competition",
+        c: "Competition within closely related species.",
+        d: "Reduced feeding efficiency in one species due to the presence of interfering species.",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "A population will not exist in Hardy-Weinberg equilibrium if",
+        a: "Individuals mate selectively",
+        b: "There are no mutations",
+        c: "There is no migration",
+        d: "The population is large",
+        correct: "a",
+        answered: null // Initialize answered property
     }
+    
 ];
 
 let index = 0;

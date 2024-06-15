@@ -2,50 +2,123 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
-        correct: "a",
-        answered: null
-    },
-    {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
+        question: "A 30 year old woman has bleedy diarrhoea for the past 14 hours, which one of the following organisms is likely to cause this illness?",
+        a: "Streptococcus pyogens",
+        b: "Clostridium difficile",
+        c: "Shigella dysenteriae",
+        d: "Salmonella enteritidis",
         correct: "c",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "Exo-erythrocytic schizogony of Plasmodium takes place in -------",
+        a: "RBC",
+        b: "Leucocytes",
+        c: "Stomach",
+        d: "Liver",
         correct: "d",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
-        correct: "a",
-        answered: null
+        question: "The sporozoites of Plasmodium vivax are formed from ------------",
+        a: "Gametocytes",
+        b: "Sporoblasts",
+        c: "Oocysts",
+        d: "Spores",
+        correct: "c",
+        answered: null // Initialize answered property
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Amphetamines are stimulants of the CNS, whereas barbiturates are ----",
+        a: "CNS stimulant",
+        b: "both a and b",
+        c: "hallucinogenic",
+        d: "CNS depressants",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Choose the correctly match pair.",
+        a: "Amphetamines - Stimulant",
+        b: "LSD - Narcotic",
+        c: "Heroin - Psychotropic",
+        d: "Benzodiazepine - Pain killer",
         correct: "a",
-        answered: null
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The Athlete’s foot disease in human is caused by-------",
+        a: "Bacteria",
+        b: "Fungi",
+        c: "Virus",
+        d: "Protozoan",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Cirrhosis of liver is caused by chronic intake of ------",
+        a: "Opium",
+        b: "Alcohol",
+        c: "Tobacco",
+        d: "Cocaine",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The sporozoite of the malarial parasite is present in ----",
+        a: "saliva of infected female Anopheles mosquito.",
+        b: "RBC of human suffering from malaria.",
+        c: "Spleen of infected humans.",
+        d: "Gut of female Anopheles mosquito.",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Match the pathogens with respective diseases caused by them and select the correct match using the codes given below.\nA. Leishmania donavani - i. Amoebiasis\nB. Wuchereria bancrofti - ii. Kala – azar\nC. Trypanosoma gambiense - iii. Sleeping sickness\nD. Entamoeba histolytica - iv. Filariasis",
+        a: "A-ii, B-iv, C-iii, D-i",
+        b: "A-ii, B-iv, C-i, D-iii",
+        c: "A-iii, B-i, C-ii, D-iv",
+        d: "A-i, B-iv, C-iii, D-ii",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Paratope is an",
+        a: "Antibody binding site on variable regions",
+        b: "Antibody binding site on heavy regions",
+        c: "Antigen binding site on variable regions",
+        d: "Antigen binding site on heavy regions",
+        correct: "c",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Allergy involves",
+        a: "IgE",
+        b: "IgG",
+        c: "lgA",
+        d: "IgM",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "Spread of cancerous cells to distant sites is termed as",
+        a: "Metastasis",
+        b: "Oncogenes",
+        c: "Proto-oncogenes",
+        d: "Malignant neoplasm",
+        correct: "a",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "B cells that produce and release large amounts of antibody are called",
+        a: "Memory cells",
+        b: "Basophils",
+        c: "Plasma cells",
+        d: "killer cells",
+        correct: "c",
+        answered: null // Initialize answered property
     }
+    
 ];
 
 let index = 0;

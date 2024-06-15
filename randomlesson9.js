@@ -2,47 +2,83 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
-        correct: "a",
-        answered: null
-    },
-    {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
-        correct: "c",
-        answered: null
-    },
-    {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "The first clinical gene therapy was done for the treatment of",
+        a: "AIDS",
+        b: "Cancer",
+        c: "Cystic fibrosis",
+        d: "SCID",
         correct: "d",
         answered: null
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Dolly, the sheep was obtained by a technique known as",
+        a: "Cloning by gene transfer",
+        b: "Cloning without the help of gametes",
+        c: "Cloning by tissue culture of somatic cells",
+        d: "Cloning by nuclear transfer",
+        correct: "d",
+        answered: null
+    },
+    {
+        question: "The genetic defect adenosine deaminase deficiency may be cured permanently by",
+        a: "Enzyme replacement therapy",
+        b: "Periodic infusion of genetically engineered lymphocytes having ADA cDNA",
+        c: "Administering adenosine deaminase activators",
+        d: "Introducing bone marrow cells producing ADA into embryo at an early stage of development",
+        correct: "d",
+        answered: null
+    },
+    {
+        question: "How many amino acids are arranged in the two chains of Insulin?",
+        a: "Chain A has 12 and Chain B has 13 amino acids",
+        b: "Chain A has 21 and Chain B has 30 amino acids",
+        c: "Chain A has 20 and chain B has 30 amino acids",
+        d: "Chain A has 12 and chain B has 20 amino acids",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "PCR proceeds in three distinct steps governed by temperature, they are in order of",
+        a: "Denaturation, Annealing, Synthesis",
+        b: "Synthesis, Annealing, Denaturation",
+        c: "Annealing, Synthesis, Denaturation",
+        d: "Denaturation, Synthesis, Annealing",
         correct: "a",
         answered: null
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Which one of the following statements is true regarding DNA polymerase used in PCR?",
+        a: "It is used to ligate introduced DNA in recipient cells",
+        b: "It serves as a selectable marker",
+        c: "It is isolated from a Virus",
+        d: "It remains active at a high temperature",
+        correct: "d",
+        answered: null
+    },
+    {
+        question: "ELISA is mainly used for",
+        a: "Detection of mutations",
+        b: "Detection of pathogens",
+        c: "Selecting animals having desired traits",
+        d: "Selecting plants having desired traits",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Transgenic animals are those which have",
+        a: "Foreign DNA in some of their cells",
+        b: "Foreign DNA in all their cells",
+        c: "Foreign RNA in some of their cells",
+        d: "Foreign RNA in all their cells",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Vaccines that use components of a pathogenic organism rather than the whole organism are called",
+        a: "Subunit recombinant vaccines",
+        b: "Attenuated recombinant vaccines",
+        c: "DNA vaccines",
+        d: "Conventional vaccines",
         correct: "a",
         answered: null
     }

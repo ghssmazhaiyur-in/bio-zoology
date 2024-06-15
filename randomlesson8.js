@@ -2,50 +2,69 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
-        correct: "a",
-        answered: null
-    },
-    {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
+        question: "Which of the following microorganism is used for production of citric acid in industries?",
+        a: "Lactobacillus bulgaris",
+        b: "Penicillium citrinum",
+        c: "Aspergillus niger",
+        d: "Rhizopus nigricans",
         correct: "c",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "Which of the following pair is correctly matched for the product produced by them?",
+        a: "Acetobacter aceti - Antibiotics",
+        b: "Methanobacterium - Lactic acid",
+        c: "Penicillium notatum - Acetic acid",
+        d: "Saccharomyces cerevisiae - Ethanol",
         correct: "d",
-        answered: null
+        answered: null // Initialize answered property
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
-        correct: "a",
-        answered: null
+        question: "The most common substrate used in distilleries for the production of ethanol is_________",
+        a: "Soyameal",
+        b: "Groundgram",
+        c: "Molasses",
+        d: "Corn meal",
+        correct: "c",
+        answered: null // Initialize answered property
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Cyclosporin – A is an immunosuppressive drug produced from _______",
+        a: "Aspergillus niger",
+        b: "Monascus purpureus",
+        c: "Penicillium notatum",
+        d: "Trichoderma polysporum",
+        correct: "d",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "CO2 is not released during",
+        a: "Alcoholic fermentation",
+        b: "Lactate fermentation",
+        c: "Aerobic respiration in animals",
+        d: "Aerobic respiration in plants",
+        correct: "b",
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The purpose of biological treatment of waste water is to _______",
+        a: "Reduce BOD",
+        b: "Increase BOD",
+        c: "Reduce sedimentation",
+        d: "Increase sedimentation",
         correct: "a",
-        answered: null
+        answered: null // Initialize answered property
+    },
+    {
+        question: "The gases produced in anaerobic sludge digesters are",
+        a: "Methane, oxygen and hydrogen sulphide.",
+        b: "Hydrogen sulphide, methane and sulphur dioxide.",
+        c: "Hydrogen sulphide, nitrogen and methane.",
+        d: "Methane, hydrogen sulphide and CO2.",
+        correct: "d",
+        answered: null // Initialize answered property
     }
+    
 ];
 
 let index = 0;

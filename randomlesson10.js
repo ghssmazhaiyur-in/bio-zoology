@@ -2,50 +2,114 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
+        question: "All populations in a given physical area are defined as",
+        a: "Biome",
+        b: "Ecosystem",
+        c: "Territory",
+        d: "Biotic factors",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Organisms which can survive a wide range of temperature are called",
+        a: "Ectotherms",
+        b: "Eurytherms",
+        c: "Endotherms",
+        d: "Stenotherms",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "The interaction in nature, where one gets benefit on the expense of other is...",
+        a: "Predation",
+        b: "Mutualism",
+        c: "Amensalism",
+        d: "Commensalism",
         correct: "a",
         answered: null
     },
     {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
-        correct: "c",
-        answered: null
-    },
-    {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "Predation and parasitism are which type of interactions?",
+        a: "(+,+)",
+        b: "(+, O)",
+        c: "(--, --)",
+        d: "(+, --)",
         correct: "d",
         answered: null
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Competition between species leads to",
+        a: "Extinction",
+        b: "Mutation",
+        c: "Amensalism",
+        d: "Symbiosis",
         correct: "a",
         answered: null
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Which of the following is an r-species",
+        a: "Human",
+        b: "Insects",
+        c: "Rhinoceros",
+        d: "Whale",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Match the following and choose the correct combination from the options given below. \nColumn I \tColumn II\nA. Mutalism \t1. Lion and deer\nB. Commensalism \t2. Round worm and man\nC. Parasitism \t3. Birds compete with squirrels for nuts\nD. Competition \t4. Sea anemone on hermit crab\nE. Predation \t5. Barnacles attached to Whales",
+        a: "A- 4, B-5, C-2, D –3, E-1",
+        b: "A- 3, B-1, C-4, D – 2, E-5",
+        c: "A- 2, B-3, C-1, D – 5, E-4",
+        d: "A- 5, B-4, C-2, D – 3, E-1",
         correct: "a",
         answered: null
+    },
+    {
+        question: "The figure given below is a diagrammatic representation of response of organisms to abiotic factors. What do A, B and C represent respectively",
+        a: "null",
+        b: "null",
+        c: "null",
+        d: "null",
+        correct: null,
+        answered: null
+    },
+    {
+        question: "The relationship between sucker fish and shark is...........",
+        a: "Competition",
+        b: "Commensalism",
+        c: "Predation",
+        d: "Parasitism",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Which of the following is correct for r-selected species",
+        a: "Large number of progeny with small size",
+        b: "large number of progeny with large size",
+        c: "small number of progeny with small size",
+        d: "small number of progeny with large size",
+        correct: "a",
+        answered: null
+    },
+    {
+        question: "Animals that can move from fresh water to sea called as.....",
+        a: "Stenothermal",
+        b: "Eurythermal",
+        c: "Catadromous",
+        d: "Anadromous",
+        correct: "c",
+        answered: null
+    },
+    {
+        question: "Some organisms are able to maintain homeostasis by physical means ...",
+        a: "Conform",
+        b: "Regulate",
+        c: "Migrate",
+        d: "Suspend",
+        correct: "b",
+        answered: null
     }
+    
 ];
 
 let index = 0;

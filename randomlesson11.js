@@ -2,50 +2,87 @@
 
 const quizData = [
     {
-        question: "In which type of parthenogenesis are only males produced?",
-        a: "Arrhenotoky",
-        b: "Thelytoky",
-        c: "Amphitoky",
-        d: "Both a and b",
+        question: "Which of the following region has maximum biodiversity",
+        a: "Taiga",
+        b: "Tropical forest",
+        c: "Temperate rain forest",
+        d: "Mangroves",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Conservation of biodiversity within their natural habitat is",
+        a: "Insitu conservation",
+        b: "Exsitu conservation",
+        c: "In vivo conservation",
+        d: "In vitro conservation",
         correct: "a",
         answered: null
     },
     {
-        question: "The mode of sexual reproduction in bacteria is by",
-        a: "Formation of gametes",
-        b: "Endospore formation",
-        c: "Conjugation",
-        d: "Zoospore formation",
+        question: "Which one of the following is not coming under insitu conservation",
+        a: "Sanctuaries",
+        b: "Natural parks",
+        c: "Zoological park",
+        d: "Biosphere reserve",
         correct: "c",
         answered: null
     },
     {
-        question: " which mode of reproduction varIniations are seen?",
-        a: "Asexual",
-        b: "Parthenogenesis",
-        c: "Sexual",
-        d: "Both a and b",
+        question: "Which of the following is considered a hotspots of biodiversity in India",
+        a: "Western ghats",
+        b: "Indo-gangetic plain",
+        c: "Eastern Himalayas",
+        d: "A and C",
         correct: "d",
         answered: null
     },
     {
-        question: "Assertion and reasoning questions: \nI. Assertion: In bee society, all the members are diploid except drones. \nReason: Drones are produced by parthenogenesis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
-        correct: "a",
+        question: "The organization which published the red list of species is",
+        a: "WWF",
+        b: "IUCN",
+        c: "ZSI",
+        d: "UNEP",
+        correct: "b",
         answered: null
     },
     {
-        question: "II. Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. \nReason: Asexual reproduction involves only mitosis and no meiosis.",
-        a: "a",
-        b: "b",
-        c: "c",
-        d: "d",
+        question: "Who introduced the term biodiversity?",
+        a: "Edward Wilson",
+        b: "Walter Rosen",
+        c: "Norman Myers",
+        d: "Alice Norman",
+        correct: "b",
+        answered: null
+    },
+    {
+        question: "Which of the following forests is known as the lungs of the planet earth?",
+        a: "Tundra forest",
+        b: "Rain forest of north east India",
+        c: "Taiga forest",
+        d: "Amazon rain forest",
+        correct: "d",
+        answered: null
+    },
+    {
+        question: "Which one of the following are at high risk extinction due to habitat destruction",
+        a: "Mammals",
+        b: "Birds",
+        c: "Amphibians",
+        d: "Echinoderms",
+        correct: "c",
+        answered: null
+    },
+    {
+        question: "Assertion: The Environmental conditions of the tropics are favourable for speciation and diversity of organisms.\nReason: The climate seasons, temperature, humidity and photoperiod are more or less stable and congenial.",
+        a: "Both Assertion and Reason are true and Reason explains Assertion correctly.",
+        b: "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+        c: "Assertion is true, but Reason is false.",
+        d: "Both Assertion and Reason are false.",
         correct: "a",
         answered: null
     }
+    
 ];
 
 let index = 0;
