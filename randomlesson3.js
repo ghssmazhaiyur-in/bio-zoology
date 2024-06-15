@@ -56,7 +56,7 @@ const quizData = [
         answered: null // Initialize answered property
     },
     {
-        question: "/images/l3q1.png",
+        question: "l3q1.png",
         a: "A-(iv), B-(ii), C-(i), D-(iii)",
         b: "A-(iv), B-(i), C-(iii), D-(ii)",
         c: "A-(i), B-(iv), C-(ii), D-(iii)",
